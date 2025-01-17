@@ -1,1 +1,1 @@
-HTML web page using CSS about graduation theme basic unit
+HTML web site using CSS about graduation theme basic unit
