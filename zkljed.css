@@ -1,0 +1,152 @@
+/* CSS Document */
+/*Vypnutí podtržení u všech <a>*/
+a {
+    text-decoration: none;
+  }
+  
+  /*Dropdown menu s tlačítkem*/
+  .dropdown-container {
+      position: relative;
+      display: flex;
+      width: 25%;
+      height: auto;
+      background: #1c6f8c;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #000000;
+      justify-content: center;
+      align-items: center;  
+  }
+  
+  /*Podbarvení tlačítka při hover*/
+  .dropdown-container:hover {
+      background: #0c3c56;
+  }
+  
+  /*Styly pro odkazy uvnitř dropdown-container*/
+  .dropdown-container a {
+      color: #000000;
+      text-decoration: none;
+  }
+  
+  /*Skryté dropdown menu*/
+  .dropdown {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #0c3c56;
+      width: 100%;
+      z-index: 999;
+      padding: 0;
+      margin: 0;
+      color: #000000;
+  }
+  
+  /*Zobrazení dropdown menu při hover na kontejner*/
+  .dropdown-container:hover .dropdown {
+      display: block;
+  }
+  
+  /*Styly jednotlivých položek dropdown menu*/
+  .subbutton {
+      list-style: none;
+      padding: 10px;
+      text-align: left;
+      background: #0c3c56;
+  }
+  
+  /*Styly pro odkazy uvnitř dropdown položek*/
+  .subbutton a {
+      display: block;
+      color: #000000;
+      text-decoration: none;
+      padding: 10px;
+  }
+  
+  /*Podbarvení odkazu při hover*/
+  .subbutton a:hover {
+      background: #0a2a40;
+  }
+  
+  /*Vrchní div s nadpisem*/
+  .head {
+    height: 15%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding: 1%;
+    top: 0px;
+    background: #7fdefa;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  /*Tlačítka s odkazy na další stránky*/
+  .homebutton {
+     display: flex; 
+     position:relative;
+     width: 25%;
+     height: auto;
+     background: #1c6f8c;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: #000000;
+     justify-content: center;
+     align-items: center;
+  }
+  
+  /*Kontejner pro tlačítka na další stránky*/
+  .nad {
+      position:relative;
+      display: flex;
+      flex-direction: row;
+      width: 92%;
+      height: 10%;
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+  
+  /*Podbarvení tlačítek při hover*/
+  .homebutton:hover {
+     background: #0c3c56;
+  }
+  
+  /*Box pro text a obrázek*/
+  .textbox { 
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      background: lightgray;
+      padding: 1%;
+      justify-content: space-between;
+  }
+  
+  /*Box pro obrázek*/
+  .picturebox {
+      width: 30%;
+      margin-left: auto;
+      margin-right: 0;
+      align-self: center;
+  }
+  
+  /*Styly pro obrázky uvnitř picturebox*/
+  img {
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+  }
+  
+  /*Styly pro textový obsah vedle obrázku*/
+  .text-content {
+      width: 65%;
+  }
+  
